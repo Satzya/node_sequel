@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-
+const sequelize = require('./../connections/sqlConnect');
 module.exports = sequelize.define('MetalDetails', {
     id: {
         type: Sequelize.INTEGER(100),
